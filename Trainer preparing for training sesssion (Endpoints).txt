@@ -1,6 +1,6 @@
 TRAINER PREPARING TRAINING SESSION
 
-->Pre-request
+->Pre-requiste
 
 - Training Topic (PPts, notes)
 - Training Duration
