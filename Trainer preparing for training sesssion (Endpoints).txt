@@ -1,0 +1,27 @@
+TRAINER PREPARING TRAINING SESSION
+
+->Pre-request
+
+- Training Topic (PPts, notes)
+- Training Duration
+
+->Scenario
+1. Session Time
+
+2.Topic sheet according to time
+
+2.Mode of Training(online or offfline)
+
+3.Software installation (Online eg; Team, Meet)
+
+4.LOgin (Login into the meet)
+
+5.Add participants
+
+6.Attendance of students
+
+7.Sharing Notes
+
+8.Log-out
+
+
