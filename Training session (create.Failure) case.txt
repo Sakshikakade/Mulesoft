@@ -1,0 +1,48 @@
+#%RAML 1.0
+title: Trainee-api
+description: Trainer preparing training session
+POST: https://anypoint.mulesoft.com/mocking/api/v1/sources/vcs/projects/ba63c016-81a1-459f-b2e5-423388f3f894/master/m/add-trainer
+
+/add-trainer:
+  post:
+    body:
+      application/json:
+        example:
+      {
+        "trainer_name": "ABC",
+        "mode of Training": "Online",
+        "type of software": "Teams", 
+        "Session time": "Afternoon",
+        "Add participants": "aa,bb,cc"
+      }
+    responses:
+      200:
+        body:
+          application/json:
+            example:
+             {
+              "status": 200,
+              "message": "Training Successfull"
+             }
+/failure_case:         
+  post: 
+    body:
+      application/json:
+        example:
+      {
+        "trainer_name": "ABC",
+        "mode of Training": "Online",
+        "type of software": "Teams", 
+        "Session time": "Afternoon",
+        "Add participants": "aa,bb,cc"
+      }
+    responses:
+      400:
+        body:
+          application/json:
+            example:
+             {
+              "status": 400,
+              "message": "Failed to session"
+             }
+     
